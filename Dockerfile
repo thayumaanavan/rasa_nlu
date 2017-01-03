@@ -10,6 +10,9 @@ COPY . ${RASA_NLU_HOME}
 
 WORKDIR ${RASA_NLU_HOME}
 
+ENV http_proxy=http://16.167.28.210:8080
+ENV https_proxy=http://16.167.28.210:8080
+
 # Run updates, install basics and cleanup
 # - build-essential: Compile specific dependencies
 # - git-core: Checkout git repos

@@ -1,0 +1,7 @@
+{
+  "backend": "spacy_sklearn",
+  "path" : "./",
+  "data" : "./data/InternalApplication.json",
+  "emulate":"luis",
+  "server_model_dir" : "./model_20161221-131121"
+}
